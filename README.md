@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Reto QA Backend - Automatización con Karate DSL
 
 ## 📌 Descripción
@@ -25,7 +26,7 @@ usuario-schema.json
 
 ## ⚙️ Configuración
 1. Clonar el repositorio:
-git clone https://github.com/TU_USUARIO/retoQaBackEnd.git
+git clone https://github.com/Animemisor/retoQaBackEnd.git
 
 
 2. Ingresar al proyecto:
@@ -110,3 +111,7 @@ Se diseñó una suite enfocada en validar el comportamiento de la API de usuario
 - Bajo acoplamiento entre pruebas
 - Fácil mantenimiento
 - Mayor estabilidad en la ejecución de tests
+=======
+# retoQaBackEnd
+Pruebas automatizadas para la API de Usuarios de ServeRest  (https://serverest.dev/) utilizando Karate DSL.
+>>>>>>> 356e8ee34093d6b40e25301532488dcb4a041212
