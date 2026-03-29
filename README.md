@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Reto QA Backend - Automatización con Karate DSL
 
 ## 📌 Descripción
@@ -12,16 +11,29 @@ Este proyecto contiene la automatización de pruebas para la API de usuarios de 
 
 ## 📂 Estructura del proyecto
 
-src/test/java/
-src/test/resources/
-features/
-usuarios/
-usuarios.feature
-usuarios-crud.feature
-helpers/
-data-generator.js
-schemas/
-usuario-schema.json
+retoQaBackEnd/
+│
+├── pom.xml
+├── karate-config.js
+├── README.md
+│
+├── src/
+│   └── test/
+│       └── java/
+│           │
+│           ├── KarateTest.java
+│           │
+│           ├── features/
+│           │   └── usuarios/
+│           │       ├── usuarios.feature
+│           │       ├── usuarios-crud.feature
+│           │
+│           ├── helpers/
+│               ├── data-generator.js
+│               └── schemas/
+│                   └── usuario-schema.json
+│
+├── target/   (se crea solo al ejecutar)
 
 
 ## ⚙️ Configuración
@@ -114,4 +126,3 @@ Se diseñó una suite enfocada en validar el comportamiento de la API de usuario
 =======
 # retoQaBackEnd
 Pruebas automatizadas para la API de Usuarios de ServeRest  (https://serverest.dev/) utilizando Karate DSL.
->>>>>>> 356e8ee34093d6b40e25301532488dcb4a041212
