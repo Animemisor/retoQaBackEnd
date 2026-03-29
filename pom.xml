@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.qa</groupId>
+  <artifactId>retoQaBackEnd</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>retoQaBackEnd</name>
+  <description>Reto QA Backend con Karate DSL</description>
+
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.intuit.karate</groupId>
+      <artifactId>karate-junit5</artifactId>
+      <version>1.4.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <testResources>
+      <testResource>
+        <directory>src/test/java</directory>
+        <includes>
+          <include>**/*.feature</include>
+          <include>**/*.js</include>
+          <include>**/*.json</include>
+        </includes>
+      </testResource>
+    </testResources>
+  </build>
+
+</project>
